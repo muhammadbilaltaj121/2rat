@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					https://2rath.com/)/, '/') + encodeURI(path as string)
+					https://2rath.com/ + encodeURI(path as string)
 				}`,
 			},
 		};
